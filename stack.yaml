@@ -1,0 +1,18 @@
+resolver: lts-11.0
+
+packages:
+  - ./hlibgit2/
+  - ./gitlib/
+  - ./gitlib-libgit2/
+# - ./gitlib-hit/
+  - ./gitlib-cmdline/
+  - ./git-monitor/
+  - ./gitlib-test/
+
+extra-deps:
+  - logging-3.0.5
+
+extra-lib-dirs:
+  - /usr/local/opt/icu4c/lib
+extra-include-dirs:
+  - /usr/local/opt/icu4c/include
